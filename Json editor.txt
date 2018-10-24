@@ -1,0 +1,210 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "quick cook",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "beginIntent",
+                    "slots": [],
+                    "samples": [
+                        "let us begin",
+                        "ya",
+                        "begin",
+                        "ok",
+                        "okay",
+                        "sure",
+                        "alright",
+                        "yeah",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "selectIntent",
+                    "slots": [
+                        {
+                            "name": "selection",
+                            "type": "selection"
+                        }
+                    ],
+                    "samples": [
+                        "the {selection} one",
+                        "{selection} one"
+                    ]
+                },
+                {
+                    "name": "moreIntent",
+                    "slots": [
+                        {
+                            "name": "more",
+                            "type": "more"
+                        }
+                    ],
+                    "samples": [
+                        "{more} recipes"
+                    ]
+                },
+                {
+                    "name": "recipeIntent",
+                    "slots": [],
+                    "samples": [
+                        "continue",
+                        "proceed"
+                    ]
+                },
+                {
+                    "name": "repeatIntent",
+                    "slots": [],
+                    "samples": [
+                        "please repeat",
+                        "repeat please",
+                        "come again",
+                        "say it again",
+                        "can you repeat that",
+                        "what",
+                        "repeat that",
+                        "one more time",
+                        "once more",
+                        "say again",
+                        "repeat"
+                    ]
+                },
+                {
+                    "name": "thanksIntent",
+                    "slots": [],
+                    "samples": [
+                        "i will try it",
+                        "cool",
+                        "very good",
+                        "good",
+                        " i am happy",
+                        "nice",
+                        "great",
+                        "awesome",
+                        "gracias",
+                        "thank you",
+                        "thanks"
+                    ]
+                },
+                {
+                    "name": "ingrepIntent",
+                    "slots": [],
+                    "samples": [
+                        "please tell the ingredients ",
+                        "ingredients please",
+                        "ingredients repeat",
+                        "tell the ingredients",
+                        "tell me the ingredients one more time",
+                        "please repeat the ingredients one more time",
+                        "please tell the ingredients again",
+                        "what are the ingredients",
+                        "say the ingredients one more time",
+                        "say the ingredients again",
+                        "repeat ingredients",
+                        "repeat the ingredients"
+                    ]
+                },
+                {
+                    "name": "recrepIntent",
+                    "slots": [],
+                    "samples": [
+                        "say how to make it",
+                        "say how to prepare it",
+                        "say how to cook it",
+                        "tell me how to make it",
+                        "tell me how to prepare it ",
+                        "once more tell the preparation",
+                        "once more tell the procedure",
+                        "once more tell the recipe",
+                        "say the preparation once again",
+                        "say the procedure once again",
+                        "say the recipe once again",
+                        "tell procedure",
+                        " tell preparation",
+                        "tell recipe",
+                        "tell the preparation",
+                        "tell the procedure",
+                        "tell the recipe",
+                        "say the procedure one more time",
+                        "say the preparation one more time",
+                        "repeat the procedure",
+                        "repeat recipe",
+                        "repeat preparation",
+                        "repeat procedure",
+                        "repeat the procedure one more time",
+                        "say the recipe one more time",
+                        "say the recipe once more",
+                        "repeat the recipe",
+                        "repeat the preparation"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "selection",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "fifth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fourth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "third"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "second"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "first"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "more",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "another"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "more"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
